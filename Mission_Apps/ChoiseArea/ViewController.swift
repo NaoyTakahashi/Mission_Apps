@@ -15,7 +15,9 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
 
-    @IBOutlet weak var hooo: UILabel!
     
+    @IBOutlet weak var hokkaidoButton: UIButton!
+    
+
 }
 
