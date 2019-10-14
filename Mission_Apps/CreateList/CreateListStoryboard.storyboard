@@ -28,7 +28,7 @@
         <!--Create List Table View Controller-->
         <scene sceneID="2rq-bW-A6y">
             <objects>
-                <tableViewController storyboardIdentifier="CreateListTable" id="FYT-iB-j05" customClass="CreateListTableViewController" customModule="Mission_Apps" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController storyboardIdentifier="CreateListTableViewController" id="FYT-iB-j05" customClass="CreateListTableViewController" customModule="Mission_Apps" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="Sbg-jD-HE0">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

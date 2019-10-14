@@ -14,9 +14,15 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
-
     
     @IBOutlet weak var hokkaidoButton: UIButton!
+    
+    @IBAction func getListHokkaido(_ sender: Any) {
+        let areaCode: String = "Z041"
+        let session: HTTPSession = HTTPSession()
+        let getList = session.get(areaCode)
+        //let codableJson = try JSONDecoder().decode(restaurantList.self, from: getList)
+    }
     
 
 }

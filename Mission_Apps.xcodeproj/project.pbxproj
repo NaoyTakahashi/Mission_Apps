@@ -20,6 +20,8 @@
 		D898C8E523543E6300E46ED1 /* ToHuKenSelectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D898C8E423543E6300E46ED1 /* ToHuKenSelectViewController.swift */; };
 		D898C8E723543E7400E46ED1 /* ToHuKenSelectStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D898C8E623543E7400E46ED1 /* ToHuKenSelectStoryboard.storyboard */; };
 		D898C8EB2354471300E46ED1 /* CreateListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D898C8EA2354471300E46ED1 /* CreateListTableViewController.swift */; };
+		D898C8EF23545A2700E46ED1 /* HTTPSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = D898C8EE23545A2700E46ED1 /* HTTPSession.swift */; };
+		D898C8F523546C5800E46ED1 /* CodableTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D898C8F423546C5800E46ED1 /* CodableTest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +61,8 @@
 		D898C8E423543E6300E46ED1 /* ToHuKenSelectViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToHuKenSelectViewController.swift; sourceTree = "<group>"; };
 		D898C8E623543E7400E46ED1 /* ToHuKenSelectStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ToHuKenSelectStoryboard.storyboard; sourceTree = "<group>"; };
 		D898C8EA2354471300E46ED1 /* CreateListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateListTableViewController.swift; sourceTree = "<group>"; };
+		D898C8EE23545A2700E46ED1 /* HTTPSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPSession.swift; sourceTree = "<group>"; };
+		D898C8F423546C5800E46ED1 /* CodableTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodableTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +113,8 @@
 		D898C8A42348875000E46ED1 /* Mission_Apps */ = {
 			isa = PBXGroup;
 			children = (
+				D898C8F12354681A00E46ED1 /* Codable */,
+				D898C8F023545D3900E46ED1 /* URLSession */,
 				D898C8DD2348939A00E46ED1 /* ChoiseArea */,
 				D898C8D42348914400E46ED1 /* CreateList */,
 				D898C8D3234890FF00E46ED1 /* FirstChooseArea */,
@@ -141,8 +147,8 @@
 		D898C8D3234890FF00E46ED1 /* FirstChooseArea */ = {
 			isa = PBXGroup;
 			children = (
-				D898C8DE2348945F00E46ED1 /* FirstChooseAreaStoryboard.storyboard */,
 				D898C8E02348947300E46ED1 /* FirstChooseAreaViewController.swift */,
+				D898C8DE2348945F00E46ED1 /* FirstChooseAreaStoryboard.storyboard */,
 			);
 			path = FirstChooseArea;
 			sourceTree = "<group>";
@@ -173,6 +179,22 @@
 				D898C8E623543E7400E46ED1 /* ToHuKenSelectStoryboard.storyboard */,
 			);
 			path = ToHuKenSelect;
+			sourceTree = "<group>";
+		};
+		D898C8F023545D3900E46ED1 /* URLSession */ = {
+			isa = PBXGroup;
+			children = (
+				D898C8EE23545A2700E46ED1 /* HTTPSession.swift */,
+			);
+			path = URLSession;
+			sourceTree = "<group>";
+		};
+		D898C8F12354681A00E46ED1 /* Codable */ = {
+			isa = PBXGroup;
+			children = (
+				D898C8F423546C5800E46ED1 /* CodableTest.swift */,
+			);
+			path = Codable;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -309,9 +331,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D898C8EF23545A2700E46ED1 /* HTTPSession.swift in Sources */,
 				D898C8A82348875000E46ED1 /* ViewController.swift in Sources */,
 				D898C8EB2354471300E46ED1 /* CreateListTableViewController.swift in Sources */,
 				D898C8A62348875000E46ED1 /* AppDelegate.swift in Sources */,
+				D898C8F523546C5800E46ED1 /* CodableTest.swift in Sources */,
 				D898C8E523543E6300E46ED1 /* ToHuKenSelectViewController.swift in Sources */,
 				D898C8E12348947300E46ED1 /* FirstChooseAreaViewController.swift in Sources */,
 			);
